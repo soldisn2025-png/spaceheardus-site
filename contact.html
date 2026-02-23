@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Space Heard Us</title>
+  <meta name="description" content="Contact Space Heard Us for bookings, partnerships, and questions." />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/main.js"></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <span class="logo" aria-hidden="true"></span>
+      <span>Space Heard Us</span>
+    </a>
+
+    <button class="burger" data-burger aria-label="Toggle menu">Menu</button>
+
+    <nav class="navlinks" data-navlinks aria-label="Primary">
+      <a data-nav href="index.html">Home</a>
+      <a data-nav href="players.html">Meet the Players</a>
+      <a data-nav href="events.html">Events</a>
+      <a data-nav href="donate.html">Donate</a>
+      <a data-nav href="contact.html">Contact</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a class="btn primary" href="donate.html">Donate</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p class="lead">
+        For bookings, partnerships, or questions, reach us anytime.
+      </p>
+
+      <div class="split">
+        <div class="card">
+          <h3>Email</h3>
+          <p>
+            <a class="btn primary" href="mailto:info@spaceheardus.org">info@spaceheardus.org</a>
+          </p>
+          <p class="mini">
+            Tip: Once you set up email, this becomes your main public contact point.
+          </p>
+
+          <div style="height:10px"></div>
+
+          <h3>Booking info to include</h3>
+          <ul class="list">
+            <li>Date/time window</li>
+            <li>Location + indoor/outdoor</li>
+            <li>Audience size</li>
+            <li>Preferred set length (15–45 min)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Optional: Contact form</h3>
+          <p>
+            If you want a form without building a backend, use a free form service (example: Formspree).
+          </p>
+          <p class="mini">
+            If you use one, replace the action URL below with your form endpoint.
+          </p>
+
+          <form method="POST" action="https://formspree.io/f/yourFormId">
+            <label>
+              <div class="mini">Your name</div>
+              <input name="name" required style="width:100%; padding:12px; border-radius:14px; border:1px solid var(--line); background:rgba(255,255,255,.04); color:var(--text);" />
+            </label>
+
+            <div style="height:10px"></div>
+
+            <label>
+              <div class="mini">Email</div>
+              <input type="email" name="email" required style="width:100%; padding:12px; border-radius:14px; border:1px solid var(--line); background:rgba(255,255,255,.04); color:var(--text);" />
+            </label>
+
+            <div style="height:10px"></div>
+
+            <label>
+              <div class="mini">Message</div>
+              <textarea name="message" rows="5" required style="width:100%; padding:12px; border-radius:14px; border:1px solid var(--line); background:rgba(255,255,255,.04); color:var(--text);"></textarea>
+            </label>
+
+            <div style="height:12px"></div>
+            <button class="btn primary" type="submit">Send</button>
+          </form>
+
+          <p class="mini" style="margin-top:10px">
+            If you prefer zero third-party forms, remove this form and rely on email only.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-row">
+    <div>© <span data-year></span> Space Heard Us</div>
+    <div><a href="privacy.html">Privacy</a> · <a href="donate.html">Donate</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
